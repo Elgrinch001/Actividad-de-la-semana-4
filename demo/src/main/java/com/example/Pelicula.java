@@ -42,7 +42,7 @@ public class Pelicula {
     }
 
     public void setTitulo(String titulo) {
-        if (titulo == null || titulo.isEmpty()) {
+        if (titulo == null) {
             this.titulo = "Sin título";
         } else if (titulo.length() < 2) {
             this.titulo = "Título inválido";
@@ -136,7 +136,7 @@ public class Pelicula {
     }
 
     public void setFechaRegistro(String fechaRegistro) {
-        if (fechaRegistro == null || fechaRegistro.isEmpty()) {
+        if (fechaRegistro == null) {
             this.fechaRegistro = "2000-01-01";
         } else {
             this.fechaRegistro = fechaRegistro;
@@ -149,7 +149,7 @@ public class Pelicula {
     }
 
     public void setGenero(String genero) {
-        if (genero == null || genero.isEmpty()) {
+        if (genero == null) {
             this.genero = "General";
         } else {
             this.genero = genero;
