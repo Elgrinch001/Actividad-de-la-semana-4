@@ -42,7 +42,7 @@ public class Alumno {
     }
 
     public void setNombre(String nombre) {
-        if (nombre == null || nombre.isEmpty()) {
+        if (nombre == null) {
             this.nombre = "Sin nombre";
         } else if (nombre.length() < 3) {
             this.nombre = "Nombre muy corto";
