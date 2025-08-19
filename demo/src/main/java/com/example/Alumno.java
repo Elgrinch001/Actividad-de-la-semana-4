@@ -24,18 +24,6 @@ public class Alumno {
     }
 
 
-    public Alumno(String nombre, int edad, String matricula, double promedio,
-            int anioIngreso, boolean activo, String fechaRegistro, String carrera) {
-        setNombre(nombre);
-        setEdad(edad);
-        setMatricula(matricula);
-        setPromedio(promedio);
-        setAnioIngreso(anioIngreso);
-        setActivo(activo);
-        setFechaRegistro(fechaRegistro);
-        setCarrera(carrera);
-    }
-
 
     public String getNombre() {
         return nombre;
