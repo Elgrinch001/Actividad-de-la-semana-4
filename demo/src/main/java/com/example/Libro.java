@@ -24,19 +24,6 @@ public class Libro {
     }
 
 
-    public Libro(String titulo, String autor, int paginas, double precio, int anioPublicacion, boolean disponible,
-            String fechaRegistro, String generos) {
-        setTitulo(titulo);
-        setAutor(autor);
-        setPaginas(paginas);
-        setPrecio(precio);
-        setAnioPublicacion(anioPublicacion);
-        setDisponible(disponible);
-        setFechaRegistro(fechaRegistro);
-        setGeneros(generos);
-    }
-
-
     public String getTitulo() {
         return this.titulo;
     }
