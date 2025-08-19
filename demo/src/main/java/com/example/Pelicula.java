@@ -24,18 +24,6 @@ public class Pelicula {
     }
 
 
-    public Pelicula(String titulo, String director, int duracion, double presupuesto,
-            int anioEstreno, boolean disponible, String fechaRegistro, String genero) {
-        setTitulo(titulo);
-        setDirector(director);
-        setDuracion(duracion);
-        setPresupuesto(presupuesto);
-        setAnioEstreno(anioEstreno);
-        setDisponible(disponible);
-        setFechaRegistro(fechaRegistro);
-        setGenero(genero);
-    }
-
 
     public String getTitulo() {
         return titulo;
