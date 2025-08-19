@@ -72,7 +72,7 @@ public class Alumno {
     }
 
     public void setMatricula(String matricula) {
-        if (matricula == null || matricula.isEmpty()) {
+        if (matricula == null) {
             this.matricula = "0000";
         } else if (matricula.length() < 4) {
             this.matricula = "XXXX";
@@ -138,7 +138,7 @@ public class Alumno {
     }
 
     public void setFechaRegistro(String fechaRegistro) {
-        if (fechaRegistro == null || fechaRegistro.isEmpty()) {
+        if (fechaRegistro == null) {
             this.fechaRegistro = "2000-01-01";
         } else {
             this.fechaRegistro = fechaRegistro;
@@ -151,7 +151,7 @@ public class Alumno {
     }
 
     public void setCarrera(String carrera) {
-        if (carrera == null || carrera.isEmpty()) {
+        if (carrera == null) {
             this.carrera = "General";
         } else {
             this.carrera = carrera;
